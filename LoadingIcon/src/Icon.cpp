@@ -6,11 +6,7 @@ Icon::Icon()
 	StartPos = Icon::GetPosCurs();
 }
 
-Icon::~Icon() 
-{
-	//Maybe not here
-	CloseHandle(Output);
-}
+Icon::~Icon() {}
 
 void Icon::Turn()
 {
